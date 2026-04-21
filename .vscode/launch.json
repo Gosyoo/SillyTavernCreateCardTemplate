@@ -76,6 +76,21 @@
         "**/jquery*.min.js",
         "**/node_modules/**"
       ],
+    },
+    {
+      "name": "调试 tavern_sync.mjs (watch 角色卡示例)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/tavern_sync.mjs",
+      "args": [
+        "watch",
+        "角色卡示例"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
   ]
 }
