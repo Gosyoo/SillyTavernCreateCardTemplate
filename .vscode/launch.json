@@ -76,6 +76,7 @@
         "**/jquery*.min.js",
         "**/node_modules/**"
       ],
+<<<<<<< HEAD
     },
     {
       "name": "调试 tavern_sync.mjs (watch 角色卡示例)",
@@ -91,6 +92,8 @@
       "skipFiles": [
         "<node_internals>/**"
       ]
+=======
+>>>>>>> 4e7451805c5655a416233e7632d1b0693b9cade6
     }
   ]
 }
